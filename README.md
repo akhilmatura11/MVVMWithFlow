@@ -14,7 +14,7 @@ We are using an in-built function to convert the lower case names into first let
 
 We are also using dependency injection to get the instance of App database and DAOs in our local data source.
 
-Input json: https://github.com/singhbandana/MVVMWithFlows/blob/master/app/src/main/assets/names.json
+Input json: https://github.com/akhilmatura11/MVVMWithFlow/blob/master/app/src/main/assets/names.json
 
 ![MVVMWithFlows](https://user-images.githubusercontent.com/94434188/168579386-ba7b4819-9bd8-4648-8fc3-7db761e5344f.png)
 
