@@ -1,11 +1,11 @@
-package com.flow.names.data.localdatasource
+package com.mvvm.flows.data.localdatasource
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.flow.names.data.names.Names
-import com.flow.names.data.names.NamesDao
+import com.mvvm.flows.data.names.Names
+import com.mvvm.flows.data.names.NamesDao
 
 @Database(entities = [Names::class], version = 1, exportSchema = false)
 abstract class AppDatabase : RoomDatabase() {

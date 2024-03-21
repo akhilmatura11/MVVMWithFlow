@@ -1,12 +1,12 @@
-package com.flow.names.ui
+package com.mvvm.flows.ui
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.flow.names.data.names.Names
-import com.flow.names.databinding.ItemNameBinding
+import com.mvvm.flows.data.names.Names
+import com.mvvm.flows.databinding.ItemNameBinding
 
 class NamesListAdapter :
     ListAdapter<Names, NamesListAdapter.NamesListViewHolder>(DiffCallback()) {

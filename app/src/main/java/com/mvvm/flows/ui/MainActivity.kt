@@ -1,12 +1,12 @@
-package com.flow.names.ui
+package com.mvvm.flows.ui
 
 import android.os.Bundle
 import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.flow.names.databinding.ActivityMainBinding
-import com.flow.names.viewmodel.MainViewModel
+import com.mvvm.flows.databinding.ActivityMainBinding
+import com.mvvm.flows.viewmodel.MainViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

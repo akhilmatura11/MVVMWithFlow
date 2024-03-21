@@ -1,4 +1,4 @@
-package com.flow.names
+package com.mvvm.flows
 
 import org.junit.Test
 

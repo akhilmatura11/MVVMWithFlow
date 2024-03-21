@@ -1,12 +1,12 @@
-package com.flow.names.viewmodel
+package com.mvvm.flows.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.flow.names.data.NamesRepository
-import com.flow.names.data.names.Names
-import com.flow.names.ui.NamesListAdapter
+import com.mvvm.flows.data.NamesRepository
+import com.mvvm.flows.data.names.Names
+import com.mvvm.flows.ui.NamesListAdapter
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.launch

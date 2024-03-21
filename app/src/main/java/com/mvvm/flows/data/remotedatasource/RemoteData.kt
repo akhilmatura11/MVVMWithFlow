@@ -1,6 +1,6 @@
-package com.flow.names.data.remotedatasource
+package com.mvvm.flows.data.remotedatasource
 
-import com.flow.names.data.names.Names
+import com.mvvm.flows.data.names.Names
 
 object RemoteData {
     fun fetchNames(): List<Names> {

@@ -1,8 +1,8 @@
-package com.flow.names.di
+package com.mvvm.flows.di
 
 import android.content.Context
-import com.flow.names.data.localdatasource.AppDatabase
-import com.flow.names.data.names.NamesDao
+import com.mvvm.flows.data.localdatasource.AppDatabase
+import com.mvvm.flows.data.names.NamesDao
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

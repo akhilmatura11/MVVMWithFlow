@@ -1,4 +1,4 @@
-package com.flow.names
+package com.mvvm.flows
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

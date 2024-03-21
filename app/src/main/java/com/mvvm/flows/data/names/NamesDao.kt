@@ -1,4 +1,4 @@
-package com.flow.names.data.names
+package com.mvvm.flows.data.names
 
 import androidx.room.Dao
 import androidx.room.Insert

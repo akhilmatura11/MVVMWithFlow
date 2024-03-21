@@ -1,7 +1,7 @@
-package com.flow.names.data
+package com.mvvm.flows.data
 
-import com.flow.names.data.localdatasource.LocalDataSource
-import com.flow.names.data.remotedatasource.RemoteData
+import com.mvvm.flows.data.localdatasource.LocalDataSource
+import com.mvvm.flows.data.remotedatasource.RemoteData
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
